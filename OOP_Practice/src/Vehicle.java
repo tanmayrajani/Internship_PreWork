@@ -1,8 +1,9 @@
 
 public class Vehicle {
-	
+	//Encapsulation
 	int NumOfWheels;
 	private String NumPlate;
+	Engine OwnsEngine; //Composition
 	
 	//Constructor overloading
 	public Vehicle() {
